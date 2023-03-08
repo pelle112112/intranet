@@ -23,10 +23,10 @@ HUSK! Ingen kommunikation mellem model og view. Gå altid igennem controller.
 
 ## Opret Git repo
 
-git init
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/pelle112112/intranet.git
+git init <br/>
+git add . <br/>
+git commit -m "first commit" <br/>
+git remote add origin https://github.com/pelle112112/intranet.git <br/>
 git push -u origin main
 
 
@@ -36,7 +36,7 @@ git push -u origin main
 - application scope
 
 ## Sende form parametre fra en JSP-side til en servlet
-I servletten: ````request.getParameter(key)````
+I servletten: ````request.getParameter(key)```` <br/>
 I jsp: lav en form og sæt name = "parameter"
 ````html
 <form action = "login" method="post">
