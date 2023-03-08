@@ -4,12 +4,12 @@ import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
+@WebServlet(name = "helloServlet", value = "/Hello")
 public class HelloServlet extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "Hello World!";
+        message = "Hello and welcome to your servlet!";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

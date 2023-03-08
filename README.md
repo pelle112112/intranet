@@ -20,3 +20,14 @@ Vi anvender en slags MVC-pattern.
 - C(ontrol) - Servlets
 
 HUSK! Ingen kommunikation mellem model og view. Gå altid igennem controller.
+
+## Opret Git repo
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/pelle112112/intranet.git
+git push -u origin main
+
+
+## 
